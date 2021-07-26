@@ -7,21 +7,9 @@ Original code: https://github.com/deepmind/deepmind-research/tree/master/nfnets
 
 Do star this repository if it helps your work!
 
-> Note: Huge Credit to [this comment](https://github.com/vballoli/nfnets-pytorch) for the pytorch implementation this repository is based on.
-> Note: See [this comment](https://github.com/vballoli/nfnets-pytorch/issues/1#issuecomment-778853439) for a generic implementation for any optimizer as a temporary reference for anyone who needs it.
-
 # Installation
 
-Install from PyPi:
-
-`pip3 install nfnets-keras`
-
-or install the latest code using:
-
-`pip3 install git+https://github.com/ypeleg/nfnets-keras`
-# Usage
-## NFNetF Model
-
+pip3 install git+https://github.com/ankan2709/NFnet
 
 
 Use any of the `NFNetF` models like any other keras Model!
@@ -61,13 +49,6 @@ from nfnets_keras import SGD_AGC
 model.compile( SGD_AGC(lr=1e-3), loss='categorical_crossentropy' )
 ```
 
-# TODO
-- [x] WSConv2D
-- [x] SGD - Adaptive Gradient Clipping
-- [x] Function to automatically replace Convolutions in any module with WSConv2d
-- [x] Documentation
-- [x] NFNets
-- [ ] NF-ResNets
 
 # Credit for the original pytroch implementation 
 ```
